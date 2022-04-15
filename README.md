@@ -14,16 +14,19 @@ Inspired by [Anish-Agnihotri/tweetdrop](https://github.com/Anish-Agnihotri/tweet
 
 ## Steps
 
+1. Copy .env.sample to .env and fill out environment variables
 ```bash
-# 1. Copy .env.sample to .env and fill out environment variables
-# NUM_TOKENS should be how many tokens you'd like to airdrop per address
 cp .env.sample .env
+```
 
-# 2. Install dependencies
-npm install
+2. Install dependencies
+```bash
+yarn install
+```
 
-# 3. Run scripts
-npm run collect-tweets
-npm run compile-airdrop
-npm run generate-tree
+3. Run scripts
+```bash
+yarn  collect-tweets
+yarn compile-airdrop
+yarn generate-tree
 ```

@@ -6,8 +6,7 @@
   "scripts": {
     "collect-tweets": "ts-node src/collect-tweets.ts",
     "compile-airdrop": "ts-node src/compile-airdrop.ts",
-    "generate-tree": "ts-node src/generate-tree.ts",
-    "followers": "ts-node src/extra/followers.ts"
+    "generate-tree": "ts-node src/generate-tree.ts"
   },
   "keywords": [
     "tweet",
